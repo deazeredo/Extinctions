@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   resources :classifications
+  resources :animals
+resources :common_names
 root "classifications#index"
   get 'classifications/index'
 
